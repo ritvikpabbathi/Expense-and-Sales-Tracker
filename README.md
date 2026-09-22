@@ -1,4 +1,4 @@
-# Tejoh Collective — Expense & Sales Tracker
+# Expense & Sales Tracker
 
 A simple local app for tracking raw material expenses and product sales, with a dashboard
 (profit, margin %) and a natural-language search box.
@@ -46,4 +46,3 @@ Your data is the single file `backend/data/tejoh.db` (photos live alongside it i
 drive (Google Drive, iCloud, OneDrive, a USB stick) is a good idea in case something happens
 to this computer. Moving the app to a new computer? Bring `backend/data/` along and everything
 picks up right where it left off.
-# Expense-and-Sales-Tracker
