@@ -1,0 +1,43 @@
+:root {
+  --cream: #faf5ef;
+  --cream-deep: #f2e9de;
+  --blush: #f3d6d9;
+  --blush-deep: #e8b8c0;
+  --rose: #c98a94;
+  --rose-dark: #a8636f;
+  --ink: #3a322f;
+  --ink-soft: #6b5f5a;
+  --sage: #a9b79a;
+  --white: #fffdfb;
+  --shadow: 0 4px 16px rgba(168, 99, 111, 0.12);
+  --radius: 18px;
+
+  font-family: "Inter", system-ui, sans-serif;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select {
+  font-family: inherit;
+}
